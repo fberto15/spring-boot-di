@@ -11,7 +11,7 @@ import com.bolsadeideas.springboot.di.app.models.service.IServicio;
 public class IndexController {
 	
 	@Autowired
-	private IServicio servicio;
+	private IServicio servicio;	
 	
 	@GetMapping({"/","","/index"})
 	public String index(Model model) {
