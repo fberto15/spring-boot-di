@@ -1,13 +1,15 @@
 package com.bolsadeideas.springboot.di.app.models.service;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-@Service("miServicioSimple")
+@Primary
+@Service("miServicioPrincipal")
 public class MiServicio implements IServicio {
 	
 	@Override
 	public String operacion() {
-		return "ejecutando...";		
+		return "ejecutando...simple";		
 	}
 
 }
