@@ -3,9 +3,7 @@ package com.bolsadeideas.springboot.di.app.models.entity;
 public class Producto {
 
 	private String nombre;
-	private Integer precio;
-	
-	
+	private Integer precio;	
 
 	public Producto(String nombre, Integer precio) {		
 		this.nombre = nombre;
